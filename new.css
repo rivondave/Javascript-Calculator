@@ -1,0 +1,58 @@
+.orange{
+    background-color:  #ff571a;
+    width: 25%;
+    height:50px;
+    padding: 10px;
+}
+.orange input{
+    float: right;
+    border-radius: 50px;
+    border: none;
+    background-color: #1a1a1a;
+    color:  #ff571a;
+    margin-top: 10px;
+    width: 100px;
+    padding: 5px;
+    letter-spacing: 3px;
+}
+.display{
+    background-color: #262626;
+    width: 25%;
+    height: 60px;
+    padding: 20px 10px 10px 10px;
+    text-align: center;
+}
+.display input{
+    width: 80%;
+    height: 45px;
+    background-color: #1a1a1a;
+    border: 1px solid #1a1a1a;
+    color: white;
+    font-size: 20px;
+}
+
+.buttons{
+    border-top:1px solid black;
+    background-color: #262626;
+    width: 25%;
+    padding: 10px;
+    text-align: center;
+
+}
+.buttons input{
+    border-radius: 100%;
+    height: 60px;
+    width: 60px;
+    margin :10px;
+    background-color: #1a1a1a;
+    color: white;
+    box-shadow: #eeeeee;
+    font-size: 15px;
+}
+.buttons input[value=CE]{
+    background-color:  #ff571a;
+}
+.buttons input#operators{
+    background-color: white;
+    color: #1a1a1a;
+}
